@@ -1,172 +1,63 @@
-# 🎓 Doubts Clearance System
+# Doubts Clearance System
 
-<div align="center">
+A MERN-stack platform for [WHAT IT ACTUALLY DOES — see note below] built as part of the M.Tech SSL (Software Systems Lab) course at NIT Calicut, Monsoon 2025.
 
-![Java](https://img.shields.io/badge/Java-Project-blue?style=for-the-badge&logo=openjdk)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Education](https://img.shields.io/badge/Domain-Education-orange?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Built%20For-Learning-purple?style=for-the-badge)
+## About this fork
 
-### A platform designed to streamline student doubt submission and resolution.
+This is my working fork of the class MERN project. Original class template: [anusudeep/mern-project-template-SSLlab-monsoon2025](https://github.com/anusudeep/mern-project-template-SSLlab-monsoon2025). Team-adapted version: [pratikjadhav2000/Doubts-Clearance-System](https://github.com/pratikjadhav2000/Doubts-Clearance-System).
 
-</div>
+## My contributions
 
----
+Worked primarily on the backend and full-stack integration for the team:
 
-## 📖 Overview
+**Backend (Node.js + Express + MongoDB):**
+- Designed the MongoDB schema for [doubts / users / responses — fill in what you actually modeled]
+- Built out the Express middleware stack ([auth / validation / error handling — mention which ones]) 
+- Implemented REST API routes for [core operations you built]
 
-The Doubts Clearance System is an educational management application designed to improve communication between students and instructors by providing a structured platform for raising, tracking, and resolving academic doubts.
+**Full-stack integration:**
+- Wired the React frontend to the backend APIs during the final UI setup phase
+- Handled state management and API integration on the client side
+- Debugged cross-stack issues to get end-to-end flows working
 
-Traditional doubt clarification methods often lead to missed questions, delayed responses, and difficulty tracking previously answered queries. This project aims to address these challenges through a centralized and organized system.
+**My commits:** [View filtered commit history](https://github.com/AshakUmesh/Doubts-Clearance-System/commits/main/?author=AshakUmesh)
 
----
+## Team
 
-## 🎯 Objectives
+Team project — 4 members. My role: backend + integration.
 
-- Provide a centralized platform for academic doubt management.
-- Improve communication between students and instructors.
-- Track the status of submitted doubts.
-- Maintain a history of resolved queries.
-- Reduce response delays and information loss.
+## Tech stack
 
----
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Other:** [any auth library, ORM, etc. you used]
 
-## ✨ Features
+## Getting started
 
-### Student Module
+Requires Node.js 18+ and MongoDB running locally (or a MongoDB Atlas connection string).
 
-- Submit academic doubts
-- View submitted questions
-- Track doubt status
-- Review resolved doubts
+```bash
+# Clone the repo
+git clone https://github.com/AshakUmesh/Doubts-Clearance-System.git
+cd Doubts-Clearance-System
 
-### Faculty Module
+# Install root dependencies
+npm install
 
-- View student queries
-- Respond to doubts
-- Update resolution status
-- Manage submitted requests
+# Install server dependencies
+cd server
+npm install
 
-### Administrative Functions
+# Install client dependencies  
+cd ../client
+npm install
 
-- User management
-- Record maintenance
-- System monitoring
+# Create .env in server/ with:
+# MONGODB_URI=your_mongo_connection_string
+# JWT_SECRET=your_secret
 
----
+# Start the backend (from /server)
+npm start
 
-## 🏗️ System Workflow
-
-```text
-Student
-   │
-   ▼
-Submit Doubt
-   │
-   ▼
-System Database
-   │
-   ▼
-Faculty Review
-   │
-   ▼
-Response Generated
-   │
-   ▼
-Student Receives Solution
-```
-
----
-
-## 🛠️ Technologies Used
-
-- Java
-- Object-Oriented Programming
-- File Handling / Database (Update according to your implementation)
-- GUI Framework (Update if used)
-- Data Structures
-
----
-
-## 📂 Project Structure
-
-```text
-Doubts-Clearance-System/
-│
-├── Source Code
-├── Models
-├── User Interface
-├── Database Files
-├── Documentation
-└── README.md
-```
-
----
-
-## 🚀 Key Learning Outcomes
-
-During the development of this project, I gained experience in:
-
-- Object-Oriented Design
-- User Management Systems
-- Data Handling
-- Software Architecture
-- Requirement Analysis
-- Problem Solving
-- Application Development
-
----
-
-## 💡 Problem Statement
-
-Students frequently encounter difficulties while studying outside classroom hours. Existing communication channels may not efficiently manage large numbers of questions or provide an organized history of discussions.
-
-This project provides a structured solution that allows students to raise doubts and receive responses through a dedicated system.
-
----
-
-## 📈 Future Enhancements
-
-- Authentication and Role-Based Access Control
-- Real-Time Notifications
-- Mobile Application Support
-- Search Functionality
-- AI-Assisted Response Suggestions
-- Cloud Database Integration
-- Analytics Dashboard
-
----
-
-## 🎓 Academic Significance
-
-This project demonstrates the practical application of:
-
-- Software Engineering Principles
-- Object-Oriented Programming
-- Database Management
-- Educational Technology Systems
-- System Design and Development
-
----
-
-## 🤝 Contributions
-
-Suggestions, feedback, and improvements are welcome.
-
-Feel free to fork the repository and contribute.
-
----
-
-## ⭐ Project Vision
-
-The long-term vision is to create a scalable educational support platform that enables efficient doubt management and enhances the overall learning experience for students and educators.
-
----
-
-<div align="center">
-
-### 🚀 Learning Through Building
-
-"Every solved doubt is a step toward better learning."
-
-</div>
+# In a new
